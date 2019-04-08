@@ -14,6 +14,14 @@ Loads toml file and generates graph.
 
 そのうち BibTeX とか吐けるようにできるといいな (放置する顔)
 
+## Usage
+To see TOML file schema, see `src/types.rs`.
+
+### Graph generator
+```
+$ cargo run --bin gen-graph -- works.toml -t svg -o /tmp/works.svg
+```
+
 ## License
 
 Licensed under either of
