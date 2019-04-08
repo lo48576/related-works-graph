@@ -12,6 +12,10 @@ repository = "https://github.com/lo48576/related-works-graph"
 all-features = true
 
 [dependencies]
+failure = "0.1.5"
+structopt = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.5"
 
 [badges]
 maintenance = { status = "experimental" }
